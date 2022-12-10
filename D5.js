@@ -21,13 +21,17 @@ for(i = 0; i < pets.length; i++) {
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
 
-let alphabeticalOrderPets
-
-for(i = 0; i < pets.length; i++) {
-  if (pets[i] > pets[1] || pets[i] > pets[2] || pets[i] > pets[3]) {
-    
-    
-    
+for (j = 0; j < pets.length; j++) {
+  for (i = 0; i < pets.length; i ++) {
+    if (pets[i] > pets[i + 1]) {
+      let firstPet = pets[i] 
+      let firstPetIndex = pets.indexOf(firstPet)
+      let secondPet = pets[i + 1] 
+      let secondPetIndex = pets.indexOf(secondPet)
+      pets.splice(firstPetIndex, 1, secondPet)
+      pets.splice(secondPetIndex, 1, firstPet)
+      
+    }
   }
 }
 
