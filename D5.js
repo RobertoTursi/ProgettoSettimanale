@@ -21,6 +21,7 @@ for(i = 0; i < pets.length; i++) {
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
 
+/*
 for (j = 0; j < pets.length; j++) {
   for (i = 0; i < pets.length; i ++) {
     if (pets[i] > pets[i + 1]) {
@@ -36,6 +37,17 @@ for (j = 0; j < pets.length; j++) {
 }
 
 console.log(pets)
+
+*/
+
+/*
+
+//metodo semplice:
+pets.sort()
+console.log(pets)
+
+*/
+
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
