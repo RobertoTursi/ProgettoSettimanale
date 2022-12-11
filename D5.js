@@ -275,3 +275,6 @@ for (i = 0; i < charactersArray.length; i++) {
 }
 console.log(charactersPosition)
 */
+
+
+
